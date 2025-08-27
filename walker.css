@@ -1,0 +1,31 @@
+header{
+    background-color: rgb(250, 219, 207);
+}
+
+.text{
+    background-color: ivory;
+  color: rgb(0, 0, 0);
+
+  width: 80%;
+}
+
+.botaobranco:hover {
+  background-color: rgb(168, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 0px;
+}
+.footer-bar {
+  background-color: #ebded7;
+  border-radius: 12px;
+}
+
+.comprar-btn {
+  padding: 0.5rem 1.5rem; 
+  border-radius: 50px; 
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+}
+h4{
+    color: #0d3316;
+    
+}
