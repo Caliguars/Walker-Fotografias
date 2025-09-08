@@ -1,17 +1,16 @@
-header{
-    background-color: rgb(250, 219, 207);
-}
+
 
 .text{
-    background-color: ivory;
-  color: rgb(0, 0, 0);
+    background-color: rgb(128, 113, 203);
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
 
   width: 80%;
 }
 
 .botaobranco:hover {
-  background-color: rgb(168, 0, 0);
-  color: rgb(255, 255, 255);
+  background-color: rgb(249, 199, 185);
+  color: rgb(136, 69, 69);
   border-radius: 0px;
 }
 .footer-bar {
@@ -28,4 +27,13 @@ header{
 h4{
     color: #0d3316;
     
+}
+
+.imgcard{
+  
+}
+
+header{
+    background-color: rgb(250, 219, 207);
+    position: fixed;
 }
