@@ -1,39 +1,138 @@
 
 
 .text{
-    background-color: rgb(128, 113, 203);
-    color: rgb(0, 0, 0);
-    padding-top: 20px;
 
-  width: 80%;
+    background-color: rgba(240, 206, 206, 0.363);
+    color: rgb(0, 0, 0);
+    padding-top: 100px;
+    width: 80%;
+}
+
+.headerdebaixo {
+  background-color: rgb(243, 206, 198);
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+}
+
+.botaobranco {
+  padding-left: 0px;
+  background-color: rgb(243, 213, 207);
+  color: rgb(130, 0, 0);
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .botaobranco:hover {
-  background-color: rgb(249, 199, 185);
-  color: rgb(136, 69, 69);
+  background-color: rgb(233, 177, 173);
+  color: rgb(255, 255, 255);
   border-radius: 0px;
 }
+
+.inicio{
+  position: fixed;
+  z-index: 200;
+  margin-top: 140px;
+}
 .footer-bar {
-  background-color: #ebded7;
+  background-color: #ead6d3;
   border-radius: 12px;
+  position: fixed;
+  bottom: 0px;
 }
 
 .comprar-btn {
   padding: 0.5rem 1.5rem; 
   border-radius: 50px; 
   font-weight: bold;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(251, 251, 251);
 }
 h4{
     color: #0d3316;
     
 }
 
-.imgcard{
+
+header{
+    background-color: #f3dad5;
+    position: fixed;
+    top:0px;
+    z-index: 90;
+}
+
+.card{
+
+  background-color: #ffe6e0a7;
+
   
 }
 
-header{
-    background-color: rgb(250, 219, 207);
-    position: fixed;
+@import url('https://fonts.cdnfonts.com/css/le-jour');
+
+h1 {
+  font-family: 'Le Jour', Serif;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
 }
+
+@import url(https://db.onlinewebfonts.com/c/59a590dbd575c419042f4d4f992966e4?family=ParfumerieScriptPro);
+
+h2 {
+  font-family: "ParfumerieScriptPro";
+  font-size: 60px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+@import url('https://fonts.cdnfonts.com/css/cormorant-garamond')
+
+.relativa{
+  position: relative;
+}
+
+.botao{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.books{
+  text-align: left;
+}
+
+.imgcard {
+      width: 200px;
+      object-fit: cover;
+    }
+
+    .wff{
+      width: 60px;
+      margin: 10px;
+      border-radius: 20px;
+    }
+
+    
+
+    p{
+      font-family:Georgia, Times, 'Times New Roman', serif;
+    }
+
+    h5{
+       font-family:Georgia, Times, 'Times New Roman', serif;
+    }
+
+  .fundo {
+      background-image: url("wlpp.jpg");
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    h4{
+      font-family:Georgia, Times, 'Times New Roman', serif;
+    }
